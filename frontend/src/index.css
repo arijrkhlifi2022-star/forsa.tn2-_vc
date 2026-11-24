@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+button {
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1d4ed8 !important;
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.12);
+}
+
+.forsa-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.forsa-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08) !important;
+}
